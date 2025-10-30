@@ -1,0 +1,19 @@
+# include<stdio.h> 
+
+int main ()
+{
+    int a ,b;
+    printf("enter a is :");
+
+    scanf("%d",&a);
+    
+    printf("enter b is:");
+
+    scanf("%d",&b);
+ 
+ int side = 2*a+b;
+ 
+ printf("pirameter of rectangle :%d",side);
+
+    return 0;
+}
